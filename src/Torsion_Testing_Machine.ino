@@ -1,3 +1,19 @@
+/*
+ PROTOTYPE CONTROL & ESTIMATION CODE
+ -----------------------------------
+ This code is used for prototype validation of torsion testing architecture.
+
+ NOTE:
+ Torque values are currently theoretical estimations derived from
+ angular displacement using torsion equations.
+
+ Motor torque constant (Kt) calibration and real torque validation
+ using known specimens has not yet been completed.
+
+ This code is part of an ongoing experimental platform and should
+ not be considered a calibrated material testing system.
+ */
+
 int RPWM = 9;
 int LPWM = 8;
 int REN = 11;
